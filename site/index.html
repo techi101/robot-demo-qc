@@ -137,7 +137,7 @@ footer { border-top: 1px solid var(--rule); margin-top: 40px; padding: 26px 0 48
 <header class="top">
   <p class="kicker">A data-quality pass on teleoperated robot demonstrations</p>
   <h1>Checking robot demos before they reach training</h1>
-  <p class="lede">I ran 149 human-teleoperated ALOHA episodes (104,400 frames from three public LeRobot datasets) through a QC pipeline that decides what goes into a training release. The hard checks found nothing broken. The soft checks found two coffee episodes where the operator held the left forearm about 0.9 rad away from every other demo, a steady 80 ms gap between command and robot, and schema drift that would break a naive merge. Then I corrupted copies of the data on purpose, to show which checks catch what and where they go blind.</p>
+  <p class="lede">I ran 149 human-teleoperated ALOHA episodes (104,400 frames from three public LeRobot datasets) through a QC pipeline that decides what goes into a training release. The hard checks found nothing broken. The soft checks found two coffee episodes where the operator held the left forearm 0.8 to 0.9 rad away from the typical demo, a steady 80 ms gap between command and robot, and schema drift that would break a naive merge. Then I corrupted copies of the data on purpose, to show which checks catch what and where they go blind.</p>
   <div class="meta">
     <span><a href="https://github.com/techi101/robot-demo-qc">Source on GitHub</a></span>
     <span><a href="manifest.json">manifest.json</a></span>
