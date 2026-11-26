@@ -1,0 +1,5 @@
+[
+ {"repo": "lerobot/aloha_static_coffee", "revision": "b144896feb1f37398a862927b22cd3abdf005a6b", "license": "mit", "gated": false},
+ {"repo": "lerobot/aloha_static_battery", "revision": "06dc3da83c4fd3d1889b00f1dfd3780da8421f64", "license": "apache-2.0", "gated": false},
+ {"repo": "lerobot/aloha_static_cups_open", "revision": "d793c969cf716001dcca18a0842c3d7e9de9e41b", "license": "mit", "gated": false}
+]

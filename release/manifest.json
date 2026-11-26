@@ -1,0 +1,237 @@
+{
+ "manifest_version": 1,
+ "created_utc": "2026-11-26T12:42:40Z",
+ "qc_config_hash": "d533876f0a89d65e",
+ "qc_code_hash": "e7673f20ec4bdd4f",
+ "policy": "drop episodes with any fail; keep warn episodes but list their flags",
+ "releases": [
+  {
+   "release_id": "aloha_static_coffee@b144896+qc.d533876f",
+   "source": {
+    "repo": "lerobot/aloha_static_coffee",
+    "revision": "b144896feb1f37398a862927b22cd3abdf005a6b",
+    "license": "mit"
+   },
+   "counts": {
+    "total": 50,
+    "kept": 50,
+    "dropped": 0,
+    "kept_with_flags": 4
+   },
+   "kept_episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "dropped": [],
+   "flagged": [
+    {
+     "episode": 0,
+     "reasons": [
+      "1 features beyond |z|>6: state_mean/left_forearm_roll z=-7.9"
+     ]
+    },
+    {
+     "episode": 12,
+     "reasons": [
+      "1 features beyond |z|>6: state_std/left_wrist_angle z=+8.3"
+     ]
+    },
+    {
+     "episode": 19,
+     "reasons": [
+      "1 features beyond |z|>6: effort_abs_mean/right_wrist_rotate z=+7.5"
+     ]
+    },
+    {
+     "episode": 22,
+     "reasons": [
+      "2 features beyond |z|>6: state_mean/left_forearm_roll z=-8.9, state_mean/left_wrist_rotate z=+6.7"
+     ]
+    }
+   ]
+  },
+  {
+   "release_id": "aloha_static_battery@06dc3da+qc.d533876f",
+   "source": {
+    "repo": "lerobot/aloha_static_battery",
+    "revision": "06dc3da83c4fd3d1889b00f1dfd3780da8421f64",
+    "license": "apache-2.0"
+   },
+   "counts": {
+    "total": 49,
+    "kept": 49,
+    "dropped": 0,
+    "kept_with_flags": 0
+   },
+   "kept_episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ],
+   "dropped": [],
+   "flagged": []
+  },
+  {
+   "release_id": "aloha_static_cups_open@d793c96+qc.d533876f",
+   "source": {
+    "repo": "lerobot/aloha_static_cups_open",
+    "revision": "d793c969cf716001dcca18a0842c3d7e9de9e41b",
+    "license": "mit"
+   },
+   "counts": {
+    "total": 50,
+    "kept": 50,
+    "dropped": 0,
+    "kept_with_flags": 0
+   },
+   "kept_episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "dropped": [],
+   "flagged": []
+  }
+ ]
+}

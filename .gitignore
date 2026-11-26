@@ -1,0 +1,6 @@
+raw/
+__pycache__/
+.pytest_cache/
+.vercel
+*.pyc
+OUTREACH.md
